@@ -4,32 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"></a>
+        <a href="/"></a>
         <img src="./Images/logo.svg" alt="Логотип сучаної пекарні" />
         <ul>
-          <li><a href="#">Франшиза</a></li>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li>
+            <a class="link" href="#new-traditions">Наші традиції</a>
+          </li>
+          <li><a class="link" href="#Chefs">Шеф-кухарі</a></li>
+          <li><a class="link" href="#formats">Формати</a></li>
+          <li><a class="link" href="#Contacts">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button type="button" class="button">Замовити дзвінок</button>
     </header>
+
     <main>
       <section>
-        <h1>Сучасна пекарня</h1>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
       </section>
-      <ul>
+      <ul class="advantages-list">
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
         <li>Досвідчена управлінська команда</li>
       </ul>
-      <section>
-        <h2>Новий формат традицій</h2>
+      <section id="new-traditions">
+        <h2 class="section-title">Новий формат традицій</h2>
       </section>
       <p>
         <span>Bakery shop</span> - це пекарня, яка взяла все найкраще, і
@@ -44,8 +49,10 @@
         src="./Images/Baker-man.jpg"
         alt="Чоловік пекарь дивиться на батони з посмішкою"
       />
-      <section>
-        <h2>Найкращий кухарі</h2>
+      <section id="Chefs">
+        <h2 class="section-title">
+          Наші найкращі <span class="accent">шеф-кухарі</span>
+        </h2>
       </section>
       <ul>
         <li>
@@ -69,8 +76,8 @@
         </li>
       </ul>
       <section></section>
-      <section>
-        <h2>Формати</h2>
+      <section id="formats">
+        <h2 class="section-title">Формати</h2>
 
         <ul>
           <li>
@@ -90,8 +97,17 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Приєднуйтесь до мережі пекарень</h2>
+      <section id="Contacts">
+        <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1640546568087!2d30.488658576307166!3d50.4566696715934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1703077146899!5m2!1suk!2sua"
+          width="603"
+          height="595"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -99,34 +115,37 @@
         <a href="#"></a>
         <!-- logo  -->
         <ul>
-          <li><a href="#">Франшиза</a></li>
           <li><a href="#">Наші традиції</a></li>
+          <li><a href="#">Шеф-кухарі</a></li>
           <li><a href="#">Формати</a></li>
           <li><a href="#">Контакти</a></li>
         </ul>
       </nav>
       <img src="./Images/logo.svg" alt="Логотип сучаної пекарні" />
+
+      <address>
+        <ul>
+          <li><a href="tel:+3809600007">+ 38 (096) 000 00 07</a></li>
+          <li>
+            <a href="mailto:shopbakery@gmail.com"></a>shopbakery@gmail.com
+          </li>
+          <li>
+            <a href="https://maps.app.goo.gl/KGZe3xbd6ZkTj54U8" target="_blank"
+              >Україна, м. Київ, вул. Січових Стрільців 54</a
+            >
+          </li>
+          <li>
+            <a href=""></a>
+            <!-- facebook icon -->
+          </li>
+          <li>
+            <a href=""></a>
+            <!-- Inst icon -->
+          </li>
+        </ul>
+        <a href="" target="_blank">Політика конфедеційності</a>
+        <p>© 2022 Дані захищені</p>
+      </address>
     </footer>
-    <address>
-      <ul>
-        <li><a href="tel:+3809600007">+ 38 (096) 000 00 07</a></li>
-        <li><a href="mailto:shopbakery@gmail.com"></a>shopbakery@gmail.com</li>
-        <li>
-          <a href="https://maps.app.goo.gl/KGZe3xbd6ZkTj54U8" target="_blank"
-            >Україна, м. Київ, вул. Січових Стрільців 54</a
-          >
-        </li>
-        <li>
-          <a href=""></a>
-          <!-- facebook icon -->
-        </li>
-        <li>
-          <a href=""></a>
-          <!-- Inst icon -->
-        </li>
-      </ul>
-      <a href="" target="_blank">Політика конфедеційності</a>
-      <p>© 2022 Дані захищені</p>
-    </address>
   </body>
 </html>
